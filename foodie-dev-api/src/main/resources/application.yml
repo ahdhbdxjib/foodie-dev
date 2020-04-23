@@ -13,7 +13,7 @@ spring:
   datasource:                                           # 数据源的相关配置
     type: com.zaxxer.hikari.HikariDataSource          # 数据源类型：HikariCP
     driver-class-name: com.mysql.jdbc.Driver        # mysql驱动
-    url: jdbc:mysql://api.idhclub.cn:3306/foodie?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+    url: jdbc:mysql://api.idhclub.cn:3306/foodie?useSSL=false  #useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false
     username: root
     password: wyswn310
     hikari:

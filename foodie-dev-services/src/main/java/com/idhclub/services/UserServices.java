@@ -18,4 +18,15 @@ public interface UserServices {
      * @return
      */
     public Users createUsers(UserBo userBo);
+
+
+    /**
+     * 登录
+     * @param username
+     * @param password
+     * @return
+     */
+    public Users queryUserForLogin(String username,String password);
+
+
 }
